@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 10px solid gray;
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #dcdcdc;
+}
+
+.btns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.top-btns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.display {
+  width: 100%;
+  height: 120px;
+  border: 2px solid black;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.current-screen {
+  /* position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 30px;
+    padding-bottom: 30px; */
+  font-size: 35px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.previous-screen {
+  font-size: 25px;
+  font-weight: 400;
+  margin-right: 5px;
+}
+
+button {
+  background-color: #fff;
+  border: 2px solid black;
+  color: black;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 900;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.clear-btn {
+  background-color: #faa0a0;
+}
+
+.delete-btn {
+  background-color: #b0e0e6;
+}
